@@ -1,0 +1,20 @@
+.home_text1 {
+  font-size: 56px !important;
+  font-weight: 600 !important;
+  line-height: 1.1em !important;
+  margin-bottom: 24px !important;
+  color: #22205f !important;
+}
+.home_text2 {
+  font-size: 24px !important;
+  color: #555 !important;
+}
+.home_text3 {
+  margin: 20px 0 0 0 !important;
+  padding: 10px 10px 10px 10px !important;
+  color: #555 !important;
+  font-size: 15px !important;
+}
+.home_grid_text {
+  margin-left: 120px !important;
+}

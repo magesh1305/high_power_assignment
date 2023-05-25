@@ -1,13 +1,13 @@
 import "./App.css";
-import About from "./features/About/about";
+import NavbarScreen from "./features/Common/navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./features/Home/home";
 
 function App() {
   return (
     <div>
-      <div>
-        <p>High power</p>
-      </div>
+      <NavbarScreen />
+      <Home />
     </div>
   );
 }

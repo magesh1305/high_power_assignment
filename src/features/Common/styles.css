@@ -1,0 +1,65 @@
+.navar_logo {
+  height: 100px;
+  max-width: 250px;
+}
+.navbar_button1 {
+  background-color: #22205f;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 3px 3px 3px 3px;
+  margin-right: 20px;
+  border: none;
+}
+.navbar_button1:hover {
+  background-color: #f04f24;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 3px 3px 3px 3px;
+  margin-right: 20px;
+  border: none;
+}
+.navbar_button2 {
+  background-color: #22205f;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 3px 3px 3px 3px;
+  margin-right: 50px;
+  border: none;
+}
+.navbar_button2:hover {
+  background-color: #f04f24;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 3px 3px 3px 3px;
+  margin-right: 50px;
+  border: none;
+}
+.navbar_text {
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  color: #22205f;
+  padding: 0 15px 0 15px;
+  text-decoration: none;
+}
+.navbar_text:hover {
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  color: #f04f24;
+  padding: 0 15px 0 15px;
+  text-decoration: none;
+}
+.navbar_navtexts {
+  margin-left: 100px;
+}
