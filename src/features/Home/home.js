@@ -19,6 +19,12 @@ import WholeSale from "../../Assets/wholesale.png";
 import Online from "../../Assets/online-shopping1.png";
 import Revenue from "../../Assets/revenue.png";
 import Book from "../../Assets/book.png";
+import Singlebag from "../../Assets/Singlebag-store.png";
+import Grow from "../../Assets/Grow-your-Online-business.jpg";
+import Instant from "../../Assets/Instant-Checkout.jpg";
+import Business from "../../Assets/Your-business-Your-Delivery-Agent.jpg";
+import Flexible from "../../Assets/Flexible-Point-Of-Sale.jpg";
+import SinglebagManage from "../../Assets/Singlebag-Manage-Everything.png";
 
 import "./styles.css";
 
@@ -230,6 +236,156 @@ function Home() {
             </Grid>
           </Grid>
         </Grid>
+      </Box>
+      <Box className="home_screen_fifthgrid_main">
+        <Box className="home_screen_fifthgrid">
+          <Grid>
+            <Typography className="home_screen_fifthgrid_typo1">
+              Create an online store with no coding knowledge
+            </Typography>
+            <Typography className="home_screen_fifthgrid_typo2">
+              Ecommerce stores are now the powerhouse of building engaging
+              business.
+            </Typography>
+          </Grid>
+
+          <Grid
+            container
+            rowSpacing={1}
+            columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+          >
+            <Grid item xs={6} className="home_screen_fifth_img_grid_grid">
+              <img src={Singlebag} className="home_screen_fifth_img" />
+            </Grid>
+            <Grid item xs={6} className="home_screen_fifth_img_grid_grid">
+              <Grid className="home_screen_fifth_grid_main">
+                <Grid>
+                  <Typography className="home_screen_fifth_grid_typo1">
+                    Online Store for Every Business
+                  </Typography>
+                  <Typography className="home_screen_fifth_grid_typo2">
+                    Sell anything and everything online by building an online
+                    store. The best deal is that you could sell everywhere, all
+                    around the globe. With a myriad of options for your
+                    storefront designs and abundant options for extensions,
+                    start your ecommerce store in a few simple steps and start
+                    selling with Singlebag.
+                  </Typography>
+                  <Typography className="home_screen_fifth_grid_typo3">
+                    Get Started <ArrowRightAltIcon />
+                  </Typography>
+                </Grid>
+              </Grid>
+            </Grid>
+            <Grid item xs={6} className="home_screen_fifth_img_grid_grid">
+              <Grid className="home_screen_fifth_grid_main">
+                <Grid>
+                  <Typography className="home_screen_fifth_grid_typo1">
+                    Grow Your Online Business
+                  </Typography>
+                  <Typography className="home_screen_fifth_grid_typo2">
+                    Get your online store discovered by your customers through
+                    Social media platforms, SEO tools, marketing tools.
+                    Singlebag has built-in marketing tools that help you manage
+                    marketing your online business using the best methods. These
+                    tools assist you in analyzing digital marketing campaigns
+                    and guides you with staying updated with marketing
+                    strategies.
+                  </Typography>
+                  <Typography className="home_screen_fifth_grid_typo3">
+                    Get Started <ArrowRightAltIcon />
+                  </Typography>
+                </Grid>
+              </Grid>
+            </Grid>
+            <Grid item xs={6} className="home_screen_fifth_img_grid_grid">
+              <img src={Grow} className="home_screen_fifth_img" />
+            </Grid>
+            <Grid item xs={6} className="home_screen_fifth_img_grid_grid">
+              <img src={Instant} className="home_screen_fifth_img" />
+            </Grid>
+            <Grid item xs={6} className="home_screen_fifth_img_grid_grid">
+              <Grid className="home_screen_fifth_grid_main">
+                <Grid>
+                  <Typography className="home_screen_fifth_grid_typo1">
+                    Reliable and Instant Checkout
+                  </Typography>
+                  <Typography className="home_screen_fifth_grid_typo2">
+                    Ease the checkout process with our multiple payment gateways
+                    and manual payment options and streamline your customer’s
+                    purchasing process.
+                  </Typography>
+                  <Typography className="home_screen_fifth_grid_typo3">
+                    Get Started <ArrowRightAltIcon />
+                  </Typography>
+                </Grid>
+              </Grid>
+            </Grid>
+            <Grid item xs={6} className="home_screen_fifth_img_grid_grid">
+              <Grid className="home_screen_fifth_grid_main">
+                <Grid>
+                  <Typography className="home_screen_fifth_grid_typo1">
+                    Your business, Your Delivery Agent
+                  </Typography>
+                  <Typography className="home_screen_fifth_grid_typo2">
+                    Manage your business delivery on your own. With our unique
+                    delivery agent app, you can deliver your products to
+                    consumers with your delivery agent and reduce the burden of
+                    third-party delivery services.
+                  </Typography>
+                  <Typography className="home_screen_fifth_grid_typo3">
+                    Get Started <ArrowRightAltIcon />
+                  </Typography>
+                </Grid>
+              </Grid>
+            </Grid>
+            <Grid item xs={6} className="home_screen_fifth_img_grid_grid">
+              <img src={Business} className="home_screen_fifth_img" />
+            </Grid>
+            <Grid item xs={6} className="home_screen_fifth_img_grid_grid">
+              <img src={Flexible} className="home_screen_fifth_img" />
+            </Grid>
+            <Grid item xs={6} className="home_screen_fifth_img_grid_grid">
+              <Grid className="home_screen_fifth_grid_main">
+                <Grid>
+                  <Typography className="home_screen_fifth_grid_typo1">
+                    Flexible Point-Of-Sale
+                  </Typography>
+                  <Typography className="home_screen_fifth_grid_typo2">
+                    Empower your business with an all-in-one POS that integrates
+                    offline marketing, sales, and inventory, with e-commerce.
+                    Turn your mobile device into a POS when you need it.
+                  </Typography>
+                  <Typography className="home_screen_fifth_grid_typo3">
+                    Get Started <ArrowRightAltIcon />
+                  </Typography>
+                </Grid>
+              </Grid>
+            </Grid>
+            <Grid item xs={6} className="home_screen_fifth_img_grid_grid">
+              <Grid className="home_screen_fifth_grid_main">
+                <Grid>
+                  <Typography className="home_screen_fifth_grid_typo1">
+                    Make Money While Managing with Ease
+                  </Typography>
+                  <Typography className="home_screen_fifth_grid_typo2">
+                    Monitor the performance of your store from a centralized
+                    dashboard. Get Constant updates and reliable 24/7 support
+                    service. Protect yourself and your visitors with a free SSL
+                    certificate and dedicated IP. Making money with an online
+                    store is just a few clicks away.
+                  </Typography>
+                  <Typography className="home_screen_fifth_grid_typo3">
+                    Get Started <ArrowRightAltIcon />
+                  </Typography>
+                </Grid>
+              </Grid>
+            </Grid>
+            <Grid item xs={6} className="home_screen_fifth_img_grid_grid">
+              <img src={SinglebagManage} className="home_screen_fifth_img" />
+            </Grid>
+          </Grid>
+        </Box>
       </Box>
     </Box>
   );

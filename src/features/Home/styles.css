@@ -160,3 +160,54 @@
   justify-content: center !important;
   align-items: center !important;
 }
+.home_screen_fifthgrid_main {
+  background-color: #f8f9fc !important;
+}
+.home_screen_fifthgrid {
+  width: 90% !important;
+  margin-left: 5% !important;
+  margin-top: 100px !important;
+}
+.home_screen_fifthgrid_typo1 {
+  font-family: "Poppins", Sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #6b6b6b !important;
+  text-align: center !important;
+  margin-bottom: 1.425rem !important;
+}
+.home_screen_fifthgrid_typo2 {
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  line-height: 1.2em !important;
+  font-family: "Poppins", Sans-serif !important;
+  margin-bottom: 1.425rem !important;
+  color: #22205f !important;
+  text-align: center !important;
+}
+.home_screen_fifth_img {
+  border-radius: 10px 10px 10px 10px !important;
+}
+.home_screen_fifth_grid_main {
+  padding: 0 110px 0 60px !important;
+  margin-top: 100px !important;
+}
+.home_screen_fifth_grid_typo1 {
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  line-height: 1.25em !important;
+  font-family: "Poppins", Sans-serif !important;
+  color: #22205f !important;
+  margin-bottom: 1.425rem !important;
+}
+.home_screen_fifth_grid_typo2 {
+  color: #555 !important;
+  margin-bottom: 20px !important;
+}
+.home_screen_fifth_grid_typo2 {
+  color: #22205f !important;
+  font-size: 16px !important;
+}
+.home_screen_fifth_img_grid_grid {
+  margin-top: 50px !important;
+}
